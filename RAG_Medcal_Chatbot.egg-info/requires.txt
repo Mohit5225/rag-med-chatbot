@@ -1,0 +1,12 @@
+langchain
+langchain_community
+langchain_huggingface
+faiss-cpu
+pypdf
+huggingface_hub
+fastapi
+uvicorn
+httpx
+python-dotenv
+setuptools
+pydantic
