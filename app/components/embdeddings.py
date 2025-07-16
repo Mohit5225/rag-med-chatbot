@@ -1,19 +1,22 @@
-from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_community.embeddings import HuggingFaceEmbeddings
 from app.common.logger import get_logger
 from app.common.custom_exceptions import CustomException
-import os
+
 logger = get_logger(__name__)
 
-def get_embeddings_model():
+def load_huggingface_embeddings():
+    """
+    Loads HuggingFace embeddings for text vectorization.
+    """
     try:
-        logger.info("INITIALIZING OUR HUGGINGFACE EMBEDDINGS MODEL")
-        model = HuggingFaceEmbeddings(
+        logger.info("Loading HuggingFace embeddings...")
+        embeddings = HuggingFaceEmbeddings(
             model_name="sentence-transformers/all-MiniLM-L6-v2",
-            model_kwargs={"device": "cuda" if os.environ.get("USE_CUDA", "false").lower() == "true" else "cpu"}
+            model_kwargs={'device': 'cpu'}
         )
-        logger.info("HuggingFace embeddings model initialized successfully.")
-        return model
+        logger.info("HuggingFace embeddings loaded successfully.")
+        return embeddings
     except Exception as e:
-        error_message = CustomException(message="Error occurred while initializing HuggingFace embeddings model.", error_detail=e)
+        error_message = CustomException(message="Error loading HuggingFace embeddings.", error_detail=e)
         logger.error(str(error_message))
-        raise error_message 
+        raise error_message

@@ -1,9 +1,9 @@
-// filepath: c:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\Frontend\tsconfig.json
 {
   "compilerOptions": {
     "baseUrl": "./src", // Base directory for resolving non-relative module names
     "paths": {
       "@components/*": ["components/*"], // Alias for components folder
+      "@hooks/*": ["hooks/*"],           // Alias for hooks folder
       "@common/*": ["common/*"],         // Alias for common folder
       "@config/*": ["config/*"]          // Alias for config folder
     }

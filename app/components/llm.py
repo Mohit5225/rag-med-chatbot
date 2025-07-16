@@ -1,26 +1,26 @@
 from langchain_groq import ChatGroq
 from app.common.logger import get_logger
 from app.common.custom_exceptions import CustomException
-from app.config.config import GROQ_API_KEY
 
 logger = get_logger(__name__)
 
 
-def load_llm(model_name: str = "llama-3.1-8b-instant", groq_api_key: str = GROQ_API_KEY):
+def load_llm(model_name: str, groq_api_key: str):
+    """
+    Loads the Language Model from Groq.
+    """
     try:
-        logger.info("INITIALIZING OUR GROQ LLM")
-        llm = ChatGroq(
-            model=model_name,
-            api_key=groq_api_key,
-            max_retries=3,
-            timeout=60,
-            temperature=0.7,
-            max_tokens=500
+        logger.info(f"Loading LLM: {model_name} from Groq...")
+        if not groq_api_key:
+            raise ValueError("Groq API key is not set.")
 
+        llm = ChatGroq(
+            groq_api_key=groq_api_key,
+            model_name=model_name
         )
-        logger.info("Groq LLM initialized successfully.")
+        logger.info("LLM loaded successfully from Groq.")
         return llm
     except Exception as e:
-        error_message = CustomException(message="Error occurred while initializing Groq LLM.", error_detail=e)
+        error_message = CustomException(message="Error loading LLM from Groq.", error_detail=e)
         logger.error(str(error_message))
         raise error_message

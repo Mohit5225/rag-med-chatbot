@@ -31,7 +31,7 @@ def create_text_chunks(documents):
         if not documents:
             raise CustomException("No documents provided for text chunking.")
         
-        logger.info("splitting {len(documents)} documents into text chunks.")
+        logger.info(f"splitting {len(documents)} documents into text chunks.")
         text_splitter = RecursiveCharacterTextSplitter(
             chunk_size=CHUNK_SIZE,
             chunk_overlap=CHUNK_OVERLAP
