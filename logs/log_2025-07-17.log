@@ -332,3 +332,426 @@ ValueError: Missing some input keys: {'query'}
 2025-07-17 15:44:47,257 - INFO - QA chain initialized successfully, invoking with question
 2025-07-17 15:44:47,823 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
 2025-07-17 15:44:47,826 - INFO - Generated answer: Cancer is a disease of the genes, caused by change...
+2025-07-17 16:02:45,682 - INFO - Received chat request with question: what is fever ? describe it as it is festival
+2025-07-17 16:02:45,683 - INFO - Loading vector store...
+2025-07-17 16:02:45,683 - INFO - Loading vector store from vectorstore/db_faiss...
+2025-07-17 16:02:45,683 - INFO - Current working directory: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot
+2025-07-17 16:02:45,683 - INFO - DB_FAISS_PATH exists: True
+2025-07-17 16:02:45,684 - INFO - DB_FAISS_PATH is dir: True
+2025-07-17 16:02:45,684 - INFO - DB_FAISS_PATH contents: ['index.faiss', 'index.pkl']
+2025-07-17 16:02:45,684 - INFO - INITIALIZING OUR HUGGINGFACE EMBEDDINGS MODEL
+2025-07-17 16:03:45,949 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-17 16:03:59,038 - INFO - HuggingFace embeddings model initialized successfully.
+2025-07-17 16:03:59,072 - INFO - Loading faiss with AVX2 support.
+2025-07-17 16:03:59,186 - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-17 16:03:59,238 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-17 16:03:59,458 - INFO - Vector store loaded successfully
+2025-07-17 16:03:59,458 - INFO - Loading LLM...
+2025-07-17 16:03:59,458 - INFO - Loading language model: llama-3.1-8b-instant
+2025-07-17 16:04:01,841 - INFO - Successfully loaded language model: llama-3.1-8b-instant
+2025-07-17 16:04:01,842 - INFO - Setting up custom prompt template...
+2025-07-17 16:04:01,842 - INFO - Creating RetrievalQA chain...
+2025-07-17 16:04:01,842 - INFO - RetrievalQA chain created successfully.
+2025-07-17 16:04:01,843 - INFO - QA chain initialized successfully, invoking with question
+2025-07-17 16:04:02,832 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-17 16:04:24,526 - INFO - Received chat request with question: what is cancer ?
+2025-07-17 16:04:24,526 - INFO - Loading vector store...
+2025-07-17 16:04:24,526 - INFO - Loading vector store from vectorstore/db_faiss...
+2025-07-17 16:04:24,526 - INFO - Current working directory: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot
+2025-07-17 16:04:24,526 - INFO - DB_FAISS_PATH exists: True
+2025-07-17 16:04:24,527 - INFO - DB_FAISS_PATH is dir: True
+2025-07-17 16:04:24,527 - INFO - DB_FAISS_PATH contents: ['index.faiss', 'index.pkl']
+2025-07-17 16:04:24,527 - INFO - INITIALIZING OUR HUGGINGFACE EMBEDDINGS MODEL
+2025-07-17 16:04:24,528 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-17 16:04:30,030 - INFO - HuggingFace embeddings model initialized successfully.
+2025-07-17 16:04:30,280 - INFO - Vector store loaded successfully
+2025-07-17 16:04:30,280 - INFO - Loading LLM...
+2025-07-17 16:04:30,280 - INFO - Loading language model: llama-3.1-8b-instant
+2025-07-17 16:04:31,450 - INFO - Successfully loaded language model: llama-3.1-8b-instant
+2025-07-17 16:04:31,450 - INFO - Setting up custom prompt template...
+2025-07-17 16:04:31,450 - INFO - Creating RetrievalQA chain...
+2025-07-17 16:04:31,450 - INFO - RetrievalQA chain created successfully.
+2025-07-17 16:04:31,451 - INFO - QA chain initialized successfully, invoking with question
+2025-07-17 16:04:31,843 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-17 18:19:16,344 - INFO - Received chat request with question: What are the symptoms of diabetes?
+2025-07-17 18:19:16,345 - INFO - Loading vector store from vectorstore/db_faiss...
+2025-07-17 18:19:16,345 - INFO - Current working directory: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot
+2025-07-17 18:19:16,346 - INFO - DB_FAISS_PATH exists: True
+2025-07-17 18:19:16,346 - INFO - DB_FAISS_PATH is dir: True
+2025-07-17 18:19:16,346 - INFO - DB_FAISS_PATH contents: ['index.faiss', 'index.pkl']
+2025-07-17 18:19:16,346 - INFO - INITIALIZING OUR HUGGINGFACE EMBEDDINGS MODEL
+2025-07-17 18:20:07,620 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-17 18:20:16,442 - INFO - HuggingFace embeddings model initialized successfully.
+2025-07-17 18:20:16,448 - INFO - Loading faiss with AVX2 support.
+2025-07-17 18:20:16,875 - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-17 18:20:16,886 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-17 18:20:16,967 - INFO - Vector store loaded successfully
+2025-07-17 18:20:17,161 - INFO - Loading language model: llama-3.1-8b-instant
+2025-07-17 18:20:18,310 - INFO - Successfully loaded language model: llama-3.1-8b-instant
+2025-07-17 18:20:19,118 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-17 18:24:51,766 - INFO - Received chat request with question: What are the symptoms of diabetes?
+2025-07-17 18:24:51,766 - INFO - Loading vector store from vectorstore/db_faiss...
+2025-07-17 18:24:51,766 - INFO - Current working directory: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot
+2025-07-17 18:24:51,766 - INFO - DB_FAISS_PATH exists: True
+2025-07-17 18:24:51,766 - INFO - DB_FAISS_PATH is dir: True
+2025-07-17 18:24:51,766 - INFO - DB_FAISS_PATH contents: ['index.faiss', 'index.pkl']
+2025-07-17 18:24:51,766 - INFO - INITIALIZING OUR HUGGINGFACE EMBEDDINGS MODEL
+2025-07-17 18:24:51,768 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-17 18:24:57,780 - INFO - HuggingFace embeddings model initialized successfully.
+2025-07-17 18:24:58,062 - INFO - Vector store loaded successfully
+2025-07-17 18:24:58,131 - INFO - Loading language model: llama-3.1-8b-instant
+2025-07-17 18:24:59,026 - INFO - Successfully loaded language model: llama-3.1-8b-instant
+2025-07-17 18:24:59,689 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-17 18:25:10,925 - INFO - Received chat request with question: What are the symptoms of diabetes?"
+2025-07-17 18:25:10,925 - INFO - Loading vector store from vectorstore/db_faiss...
+2025-07-17 18:25:10,925 - INFO - Current working directory: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot
+2025-07-17 18:25:10,926 - INFO - DB_FAISS_PATH exists: True
+2025-07-17 18:25:10,926 - INFO - DB_FAISS_PATH is dir: True
+2025-07-17 18:25:10,926 - INFO - DB_FAISS_PATH contents: ['index.faiss', 'index.pkl']
+2025-07-17 18:25:10,926 - INFO - INITIALIZING OUR HUGGINGFACE EMBEDDINGS MODEL
+2025-07-17 18:25:10,928 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-17 18:25:17,130 - INFO - HuggingFace embeddings model initialized successfully.
+2025-07-17 18:25:17,189 - INFO - Vector store loaded successfully
+2025-07-17 18:25:17,297 - INFO - Loading language model: llama-3.1-8b-instant
+2025-07-17 18:25:18,045 - INFO - Successfully loaded language model: llama-3.1-8b-instant
+2025-07-17 18:25:18,374 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-17 18:31:53,686 - INFO - Received chat request with question: What are the symptoms of diabetes?
+2025-07-17 18:31:53,686 - INFO - Loading vector store from vectorstore/db_faiss...
+2025-07-17 18:31:53,686 - INFO - Current working directory: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot
+2025-07-17 18:31:53,686 - INFO - DB_FAISS_PATH exists: True
+2025-07-17 18:31:53,686 - INFO - DB_FAISS_PATH is dir: True
+2025-07-17 18:31:53,686 - INFO - DB_FAISS_PATH contents: ['index.faiss', 'index.pkl']
+2025-07-17 18:31:53,686 - INFO - INITIALIZING OUR HUGGINGFACE EMBEDDINGS MODEL
+2025-07-17 18:31:53,688 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-17 18:31:59,591 - INFO - HuggingFace embeddings model initialized successfully.
+2025-07-17 18:31:59,662 - INFO - Vector store loaded successfully
+2025-07-17 18:31:59,724 - INFO - Loading language model: llama-3.1-8b-instant
+2025-07-17 18:32:00,946 - INFO - Successfully loaded language model: llama-3.1-8b-instant
+2025-07-17 18:32:01,273 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-17 18:32:44,989 - INFO - Received chat request with question: What are the symptoms of diabetes?
+2025-07-17 18:32:44,989 - INFO - Loading vector store from vectorstore/db_faiss...
+2025-07-17 18:32:44,989 - INFO - Current working directory: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot
+2025-07-17 18:32:44,989 - INFO - DB_FAISS_PATH exists: True
+2025-07-17 18:32:44,989 - INFO - DB_FAISS_PATH is dir: True
+2025-07-17 18:32:44,989 - INFO - DB_FAISS_PATH contents: ['index.faiss', 'index.pkl']
+2025-07-17 18:32:44,989 - INFO - INITIALIZING OUR HUGGINGFACE EMBEDDINGS MODEL
+2025-07-17 18:32:56,269 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-17 18:33:04,569 - INFO - HuggingFace embeddings model initialized successfully.
+2025-07-17 18:33:04,575 - INFO - Loading faiss with AVX2 support.
+2025-07-17 18:33:04,617 - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-17 18:33:04,629 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-17 18:33:04,704 - INFO - Vector store loaded successfully
+2025-07-17 18:33:04,832 - INFO - Loading language model: llama-3.1-8b-instant
+2025-07-17 18:33:06,316 - INFO - Successfully loaded language model: llama-3.1-8b-instant
+2025-07-17 18:33:06,776 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-17 18:33:21,293 - INFO - Received chat request with question: What are the symptoms of diabetes?
+2025-07-17 18:33:21,294 - INFO - Loading vector store from vectorstore/db_faiss...
+2025-07-17 18:33:21,294 - INFO - Current working directory: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot
+2025-07-17 18:33:21,294 - INFO - DB_FAISS_PATH exists: True
+2025-07-17 18:33:21,294 - INFO - DB_FAISS_PATH is dir: True
+2025-07-17 18:33:21,294 - INFO - DB_FAISS_PATH contents: ['index.faiss', 'index.pkl']
+2025-07-17 18:33:21,295 - INFO - INITIALIZING OUR HUGGINGFACE EMBEDDINGS MODEL
+2025-07-17 18:33:21,296 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-17 18:33:27,247 - INFO - HuggingFace embeddings model initialized successfully.
+2025-07-17 18:33:27,567 - INFO - Vector store loaded successfully
+2025-07-17 18:33:27,619 - INFO - Loading language model: llama-3.1-8b-instant
+2025-07-17 18:33:28,798 - INFO - Successfully loaded language model: llama-3.1-8b-instant
+2025-07-17 18:33:29,170 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-17 18:38:18,979 - INFO - Received chat request with question: What are the symptoms of diabetes?
+2025-07-17 18:38:18,980 - INFO - Loading vector store from vectorstore/db_faiss...
+2025-07-17 18:38:18,980 - INFO - Current working directory: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot
+2025-07-17 18:38:18,980 - INFO - DB_FAISS_PATH exists: True
+2025-07-17 18:38:18,980 - INFO - DB_FAISS_PATH is dir: True
+2025-07-17 18:38:18,981 - INFO - DB_FAISS_PATH contents: ['index.faiss', 'index.pkl']
+2025-07-17 18:38:18,981 - INFO - INITIALIZING OUR HUGGINGFACE EMBEDDINGS MODEL
+2025-07-17 18:38:18,984 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-17 18:38:25,439 - INFO - HuggingFace embeddings model initialized successfully.
+2025-07-17 18:38:25,510 - INFO - Vector store loaded successfully
+2025-07-17 18:38:25,563 - INFO - Loading language model: llama-3.1-8b-instant
+2025-07-17 18:38:26,486 - INFO - Successfully loaded language model: llama-3.1-8b-instant
+2025-07-17 18:38:26,830 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-17 18:40:08,293 - INFO - Received chat request with question: What are the symptoms of diabetes?
+2025-07-17 18:40:08,293 - INFO - Loading vector store from vectorstore/db_faiss...
+2025-07-17 18:40:08,293 - INFO - Current working directory: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot
+2025-07-17 18:40:08,293 - INFO - DB_FAISS_PATH exists: True
+2025-07-17 18:40:08,293 - INFO - DB_FAISS_PATH is dir: True
+2025-07-17 18:40:08,295 - INFO - DB_FAISS_PATH contents: ['index.faiss', 'index.pkl']
+2025-07-17 18:40:08,295 - INFO - INITIALIZING OUR HUGGINGFACE EMBEDDINGS MODEL
+2025-07-17 18:40:22,017 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-17 18:40:31,086 - INFO - HuggingFace embeddings model initialized successfully.
+2025-07-17 18:40:31,094 - INFO - Loading faiss with AVX2 support.
+2025-07-17 18:40:31,136 - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-17 18:40:31,149 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-17 18:40:31,230 - INFO - Vector store loaded successfully
+2025-07-17 18:40:31,346 - INFO - Loading language model: llama-3.1-8b-instant
+2025-07-17 18:40:32,842 - INFO - Successfully loaded language model: llama-3.1-8b-instant
+2025-07-17 18:40:33,327 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-17 18:40:33,344 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,354 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='The', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,355 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' symptoms', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,356 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' of', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,357 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' diabetes', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,358 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' include', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,358 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=':\n\n', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,359 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='1', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,360 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='.', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,360 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' Feeling', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,436 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' tired', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,436 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' and', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,438 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' sick', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,438 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='\n', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,439 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='2', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,445 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='.', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,446 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' Fre', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,448 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='quent', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,448 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' ur', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,449 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='ination', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,450 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='\n', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,450 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='3', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,451 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='.', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,451 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' Ex', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,452 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='cessive', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,453 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' thirst', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,454 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='\n', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,454 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='4', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,455 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='.', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,455 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' Ex', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,456 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='cessive', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,459 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' hunger', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,460 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='\n', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,461 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='5', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,461 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='.', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,462 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' Weight', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,462 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' loss', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,463 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='\n', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,463 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='6', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,464 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='.', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,465 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' L', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,465 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='eth', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,466 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='arg', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,466 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='y', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,467 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='\n', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,468 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='7', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,471 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='.', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,471 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' S', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,472 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='udden', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,475 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' weight', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,476 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' loss', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,477 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='\n', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,477 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='8', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,478 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='.', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,479 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' Slow', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,480 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' wound', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,480 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' healing', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,481 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='\n', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,481 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='9', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,482 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='.', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,484 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' Ur', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,484 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='inary', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,485 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' tract', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,486 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' infections', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,486 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='\n', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,487 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='10', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,487 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='.', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,488 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' Gum', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,489 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' disease', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,489 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='\n', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,492 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='11', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,493 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='.', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,494 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' Bl', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,494 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='urred', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,495 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' vision', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,496 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='\n\n', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,496 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='Additionally', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,497 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=',', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,498 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' in', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,498 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' the', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,499 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' case', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,500 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' of', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,500 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' keto', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,501 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='acid', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,501 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='osis', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,502 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=',', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,503 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' symptoms', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,504 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' include', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,505 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=':\n\n', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,506 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='1', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,509 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='.', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,509 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' Fre', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,510 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='quent', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,511 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' ur', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,512 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='ination', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,512 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='\n', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,513 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='2', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,514 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='.', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,514 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' L', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,515 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='eth', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,515 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='arg', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,516 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='y', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,517 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='\n', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,517 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='3', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,518 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='.', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,518 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' Ex', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,519 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='cessive', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,519 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' thirst', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,520 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='\n', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,520 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='4', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,521 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='.', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,521 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' Hunger', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,522 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='\n\n', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,524 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='Note', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,525 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' that', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,526 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' some', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,526 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' of', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,527 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' these', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,528 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' symptoms', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,529 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' may', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,530 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' be', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,531 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' similar', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,531 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' to', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,532 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' those', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,533 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' of', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,533 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' other', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,534 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' conditions', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,534 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=',', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,535 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' and', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,535 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' a', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,536 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' proper', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,536 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' diagnosis', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,537 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' by', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,537 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' a', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,538 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' healthcare', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,539 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' professional', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,541 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' is', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,542 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' necessary', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,544 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' to', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,544 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' confirm', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,545 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content=' diabetes', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,546 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='.', additional_kwargs={}, response_metadata={}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c')
+2025-07-17 18:40:33,548 - INFO - Skipped empty or metadata chunk: AIMessageChunk(content='', additional_kwargs={}, response_metadata={'finish_reason': 'stop', 'model_name': 'llama-3.1-8b-instant', 'system_fingerprint': 'fp_c523237e5d', 'service_tier': 'on_demand'}, id='run--e1eb9a38-8b29-4639-ade8-1307a9e7bf2c', usage_metadata={'input_tokens': 491, 'output_tokens': 142, 'total_tokens': 633})
+2025-07-17 18:43:46,988 - INFO - Received chat request with question: what is cancer
+2025-07-17 18:43:46,988 - INFO - Loading vector store from vectorstore/db_faiss...
+2025-07-17 18:43:46,988 - INFO - Current working directory: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot
+2025-07-17 18:43:46,989 - INFO - DB_FAISS_PATH exists: True
+2025-07-17 18:43:46,989 - INFO - DB_FAISS_PATH is dir: True
+2025-07-17 18:43:46,989 - INFO - DB_FAISS_PATH contents: ['index.faiss', 'index.pkl']
+2025-07-17 18:43:46,989 - INFO - INITIALIZING OUR HUGGINGFACE EMBEDDINGS MODEL
+2025-07-17 18:44:00,205 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-17 18:44:07,794 - INFO - HuggingFace embeddings model initialized successfully.
+2025-07-17 18:44:07,799 - INFO - Loading faiss with AVX2 support.
+2025-07-17 18:44:07,844 - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-17 18:44:07,857 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-17 18:44:07,948 - INFO - Vector store loaded successfully
+2025-07-17 18:44:08,075 - INFO - Loading language model: llama-3.1-8b-instant
+2025-07-17 18:44:09,734 - INFO - Successfully loaded language model: llama-3.1-8b-instant
+2025-07-17 18:44:10,276 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-17 18:44:28,921 - INFO - Received chat request with question: What are the symptoms of diabetes?
+2025-07-17 18:44:28,921 - INFO - Loading vector store from vectorstore/db_faiss...
+2025-07-17 18:44:28,921 - INFO - Current working directory: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot
+2025-07-17 18:44:28,922 - INFO - DB_FAISS_PATH exists: True
+2025-07-17 18:44:28,922 - INFO - DB_FAISS_PATH is dir: True
+2025-07-17 18:44:28,922 - INFO - DB_FAISS_PATH contents: ['index.faiss', 'index.pkl']
+2025-07-17 18:44:28,922 - INFO - INITIALIZING OUR HUGGINGFACE EMBEDDINGS MODEL
+2025-07-17 18:44:28,924 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-17 18:44:34,742 - INFO - HuggingFace embeddings model initialized successfully.
+2025-07-17 18:44:35,054 - INFO - Vector store loaded successfully
+2025-07-17 18:44:35,091 - INFO - Loading language model: llama-3.1-8b-instant
+2025-07-17 18:44:35,941 - INFO - Successfully loaded language model: llama-3.1-8b-instant
+2025-07-17 18:44:36,234 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-17 18:46:53,899 - INFO - Received chat request with question: What are the symptoms of diabetes?
+2025-07-17 18:46:53,899 - INFO - Loading vector store from vectorstore/db_faiss...
+2025-07-17 18:46:53,899 - INFO - Current working directory: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot
+2025-07-17 18:46:53,900 - INFO - DB_FAISS_PATH exists: True
+2025-07-17 18:46:53,900 - INFO - DB_FAISS_PATH is dir: True
+2025-07-17 18:46:53,900 - INFO - DB_FAISS_PATH contents: ['index.faiss', 'index.pkl']
+2025-07-17 18:46:53,900 - INFO - INITIALIZING OUR HUGGINGFACE EMBEDDINGS MODEL
+2025-07-17 18:47:04,461 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-17 18:47:14,027 - INFO - HuggingFace embeddings model initialized successfully.
+2025-07-17 18:47:14,034 - INFO - Loading faiss with AVX2 support.
+2025-07-17 18:47:14,077 - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-17 18:47:14,089 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-17 18:47:14,165 - INFO - Vector store loaded successfully
+2025-07-17 18:47:14,414 - INFO - Loading language model: llama-3.1-8b-instant
+2025-07-17 18:47:15,917 - INFO - Successfully loaded language model: llama-3.1-8b-instant
+2025-07-17 18:47:16,316 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-17 18:47:33,190 - INFO - Received chat request with question: What are the symptoms of diabetes?
+2025-07-17 18:47:33,191 - INFO - Loading vector store from vectorstore/db_faiss...
+2025-07-17 18:47:33,191 - INFO - Current working directory: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot
+2025-07-17 18:47:33,191 - INFO - DB_FAISS_PATH exists: True
+2025-07-17 18:47:33,191 - INFO - DB_FAISS_PATH is dir: True
+2025-07-17 18:47:33,192 - INFO - DB_FAISS_PATH contents: ['index.faiss', 'index.pkl']
+2025-07-17 18:47:33,192 - INFO - INITIALIZING OUR HUGGINGFACE EMBEDDINGS MODEL
+2025-07-17 18:47:33,195 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-17 18:47:38,690 - INFO - HuggingFace embeddings model initialized successfully.
+2025-07-17 18:47:39,000 - INFO - Vector store loaded successfully
+2025-07-17 18:47:39,064 - INFO - Loading language model: llama-3.1-8b-instant
+2025-07-17 18:47:40,273 - INFO - Successfully loaded language model: llama-3.1-8b-instant
+2025-07-17 18:47:40,544 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-17 18:47:55,821 - INFO - Received chat request with question: What are the symptoms of diabetes?
+2025-07-17 18:47:55,821 - INFO - Loading vector store from vectorstore/db_faiss...
+2025-07-17 18:47:55,821 - INFO - Current working directory: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot
+2025-07-17 18:47:55,821 - INFO - DB_FAISS_PATH exists: True
+2025-07-17 18:47:55,821 - INFO - DB_FAISS_PATH is dir: True
+2025-07-17 18:47:55,822 - INFO - DB_FAISS_PATH contents: ['index.faiss', 'index.pkl']
+2025-07-17 18:47:55,822 - INFO - INITIALIZING OUR HUGGINGFACE EMBEDDINGS MODEL
+2025-07-17 18:47:55,824 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-17 18:48:02,051 - INFO - HuggingFace embeddings model initialized successfully.
+2025-07-17 18:48:02,119 - INFO - Vector store loaded successfully
+2025-07-17 18:48:02,184 - INFO - Loading language model: llama-3.1-8b-instant
+2025-07-17 18:48:03,409 - INFO - Successfully loaded language model: llama-3.1-8b-instant
+2025-07-17 18:48:03,964 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-17 18:48:21,286 - INFO - Received chat request with question: tell me 100 symptoms
+2025-07-17 18:48:21,286 - INFO - Loading vector store from vectorstore/db_faiss...
+2025-07-17 18:48:21,286 - INFO - Current working directory: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot
+2025-07-17 18:48:21,287 - INFO - DB_FAISS_PATH exists: True
+2025-07-17 18:48:21,287 - INFO - DB_FAISS_PATH is dir: True
+2025-07-17 18:48:21,287 - INFO - DB_FAISS_PATH contents: ['index.faiss', 'index.pkl']
+2025-07-17 18:48:21,288 - INFO - INITIALIZING OUR HUGGINGFACE EMBEDDINGS MODEL
+2025-07-17 18:48:21,289 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-17 18:48:30,523 - INFO - HuggingFace embeddings model initialized successfully.
+2025-07-17 18:48:30,589 - INFO - Vector store loaded successfully
+2025-07-17 18:48:30,669 - INFO - Loading language model: llama-3.1-8b-instant
+2025-07-17 18:48:31,878 - INFO - Successfully loaded language model: llama-3.1-8b-instant
+2025-07-17 18:48:32,174 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-17 18:51:37,128 - INFO - Received chat request with question: What are the symptoms of diabetes 100 symptoms?
+2025-07-17 18:51:37,128 - INFO - Loading vector store from vectorstore/db_faiss...
+2025-07-17 18:51:37,128 - INFO - Current working directory: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot
+2025-07-17 18:51:37,128 - INFO - DB_FAISS_PATH exists: True
+2025-07-17 18:51:37,128 - INFO - DB_FAISS_PATH is dir: True
+2025-07-17 18:51:37,129 - INFO - DB_FAISS_PATH contents: ['index.faiss', 'index.pkl']
+2025-07-17 18:51:37,129 - INFO - INITIALIZING OUR HUGGINGFACE EMBEDDINGS MODEL
+2025-07-17 18:51:50,859 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-17 18:51:59,313 - INFO - HuggingFace embeddings model initialized successfully.
+2025-07-17 18:51:59,319 - INFO - Loading faiss with AVX2 support.
+2025-07-17 18:51:59,360 - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-17 18:51:59,371 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-17 18:51:59,451 - INFO - Vector store loaded successfully
+2025-07-17 18:51:59,566 - INFO - Loading language model: llama-3.1-8b-instant
+2025-07-17 18:52:01,101 - INFO - Successfully loaded language model: llama-3.1-8b-instant
+2025-07-17 18:52:01,554 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-17 18:52:26,246 - INFO - Received chat request with question: What are the symptoms of diabetes?
+2025-07-17 18:52:26,247 - INFO - Loading vector store from vectorstore/db_faiss...
+2025-07-17 18:52:26,247 - INFO - Current working directory: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot
+2025-07-17 18:52:26,247 - INFO - DB_FAISS_PATH exists: True
+2025-07-17 18:52:26,247 - INFO - DB_FAISS_PATH is dir: True
+2025-07-17 18:52:26,248 - INFO - DB_FAISS_PATH contents: ['index.faiss', 'index.pkl']
+2025-07-17 18:52:26,248 - INFO - INITIALIZING OUR HUGGINGFACE EMBEDDINGS MODEL
+2025-07-17 18:52:26,251 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-17 18:52:33,306 - INFO - HuggingFace embeddings model initialized successfully.
+2025-07-17 18:52:33,620 - INFO - Vector store loaded successfully
+2025-07-17 18:52:33,681 - INFO - Loading language model: llama-3.1-8b-instant
+2025-07-17 18:52:34,867 - INFO - Successfully loaded language model: llama-3.1-8b-instant
+2025-07-17 18:52:35,107 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-17 19:02:49,606 - INFO - Received chat request with question: What are the symptoms of diabetes?"
+2025-07-17 19:02:49,606 - INFO - Loading vector store from vectorstore/db_faiss...
+2025-07-17 19:02:49,607 - INFO - Current working directory: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot
+2025-07-17 19:02:49,607 - INFO - DB_FAISS_PATH exists: True
+2025-07-17 19:02:49,607 - INFO - DB_FAISS_PATH is dir: True
+2025-07-17 19:02:49,607 - INFO - DB_FAISS_PATH contents: ['index.faiss', 'index.pkl']
+2025-07-17 19:02:49,607 - INFO - INITIALIZING OUR HUGGINGFACE EMBEDDINGS MODEL
+2025-07-17 19:02:49,608 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-17 19:02:54,872 - INFO - HuggingFace embeddings model initialized successfully.
+2025-07-17 19:02:54,914 - INFO - Vector store loaded successfully
+2025-07-17 19:02:55,006 - INFO - Loading language model: llama-3.1-8b-instant
+2025-07-17 19:02:55,728 - INFO - Successfully loaded language model: llama-3.1-8b-instant
+2025-07-17 19:02:56,076 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"

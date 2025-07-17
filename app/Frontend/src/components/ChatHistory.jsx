@@ -21,7 +21,7 @@ export default function ChatHistory({ messages, isLoading, className }) {
       {messages.map((msg, index) => (
         <ChatBubble key={index} role={msg.role} content={msg.content} />
       ))}
-      {isLoading && <LoadingBubble />}
+      {isLoading && !messages.some(msg => msg.role === 'bot') && <LoadingBubble />}
     </div>
   )
 }
