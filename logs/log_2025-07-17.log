@@ -1,0 +1,334 @@
+2025-07-17 03:45:14,886 - INFO - Starting PDF processing and vector store creation.
+2025-07-17 03:45:14,886 - ERROR - Error occurred while loading PDF documents. | Error: Data path 'data/' does not exist. | Error: None | File: Unknown File | Line: Unknown Line | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\pdf_Loader.py | Line: 13
+2025-07-17 03:45:14,886 - ERROR - Error occurred while creating text chunks. | Error: No documents provided for text chunking. | Error: None | File: Unknown File | Line: Unknown Line | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\pdf_Loader.py | Line: 32
+2025-07-17 03:45:14,887 - ERROR - Error creating vector store. | Error: No text chunks provided to create vector store. | Error: None | File: Unknown File | Line: Unknown Line | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\vector_store.py | Line: 16
+2025-07-17 03:45:14,887 - ERROR - Error occurred while processing PDF. | Error: Error creating vector store. | Error: No text chunks provided to create vector store. | Error: None | File: Unknown File | Line: Unknown Line | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\vector_store.py | Line: 16 | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\data_loader.py | Line: 16
+2025-07-17 03:48:25,880 - INFO - Starting PDF processing and vector store creation.
+2025-07-17 03:48:25,881 - ERROR - Error occurred while loading PDF documents. | Error: Data path 'data/' does not exist. | Error: None | File: Unknown File | Line: Unknown Line | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\pdf_Loader.py | Line: 13
+2025-07-17 03:48:25,881 - ERROR - Error occurred while creating text chunks. | Error: No documents provided for text chunking. | Error: None | File: Unknown File | Line: Unknown Line | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\pdf_Loader.py | Line: 32
+2025-07-17 03:48:25,881 - ERROR - Error creating vector store. | Error: No text chunks provided to create vector store. | Error: None | File: Unknown File | Line: Unknown Line | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\vector_store.py | Line: 16
+2025-07-17 03:48:25,881 - ERROR - Error occurred while processing PDF. | Error: Error creating vector store. | Error: No text chunks provided to create vector store. | Error: None | File: Unknown File | Line: Unknown Line | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\vector_store.py | Line: 16 | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\data_loader.py | Line: 16
+2025-07-17 03:49:53,221 - ERROR - Error occurred while processing PDF. | Error: Database path 'vectorstore/db_faiss' does not exist. | Error: None | File: Unknown File | Line: Unknown Line | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\data_loader.py | Line: 14
+2025-07-17 03:50:09,232 - ERROR - Error occurred while processing PDF. | Error: Database path 'vectorstore/db_faiss' does not exist. | Error: None | File: Unknown File | Line: Unknown Line | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\data_loader.py | Line: 14
+2025-07-17 04:52:21,989 - ERROR - Error occurred while processing PDF. | Error: Database path 'vectorstore/db_faiss' does not exist. | Error: None | File: Unknown File | Line: Unknown Line | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\data_loader.py | Line: 14
+2025-07-17 04:53:33,841 - INFO - Starting PDF processing and vector store creation.
+2025-07-17 04:53:33,842 - INFO - Loading PDF documents from directory: app/DATA/
+2025-07-17 04:53:33,842 - ERROR - Error occurred while loading PDF documents. | Error: DirectoryLoader.__init__() got an unexpected keyword argument 'directory_path' | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\pdf_Loader.py | Line: 15
+2025-07-17 04:53:33,842 - ERROR - Error occurred while creating text chunks. | Error: No documents provided for text chunking. | Error: None | File: Unknown File | Line: Unknown Line | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\pdf_Loader.py | Line: 32
+2025-07-17 04:53:33,842 - ERROR - Error creating vector store. | Error: No text chunks provided to create vector store. | Error: None | File: Unknown File | Line: Unknown Line | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\vector_store.py | Line: 16
+2025-07-17 04:53:33,842 - ERROR - Error occurred while processing PDF. | Error: Error creating vector store. | Error: No text chunks provided to create vector store. | Error: None | File: Unknown File | Line: Unknown Line | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\vector_store.py | Line: 16 | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\data_loader.py | Line: 18
+2025-07-17 04:54:50,994 - INFO - Starting PDF processing and vector store creation.
+2025-07-17 04:54:50,994 - INFO - Loading PDF documents from directory: app/DATA/
+2025-07-17 04:54:50,994 - ERROR - Error occurred while loading PDF documents. | Error: DirectoryLoader.__init__() got an unexpected keyword argument 'directory_path' | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\pdf_Loader.py | Line: 15
+2025-07-17 04:54:50,994 - ERROR - Error occurred while creating text chunks. | Error: No documents provided for text chunking. | Error: None | File: Unknown File | Line: Unknown Line | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\pdf_Loader.py | Line: 32
+2025-07-17 04:54:50,995 - ERROR - Error creating vector store. | Error: No text chunks provided to create vector store. | Error: None | File: Unknown File | Line: Unknown Line | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\vector_store.py | Line: 16
+2025-07-17 04:54:50,995 - ERROR - Error occurred while processing PDF. | Error: Error creating vector store. | Error: No text chunks provided to create vector store. | Error: None | File: Unknown File | Line: Unknown Line | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\vector_store.py | Line: 16 | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\data_loader.py | Line: 18
+2025-07-17 05:04:59,638 - INFO - Starting PDF processing and vector store creation from app/DATA/
+2025-07-17 05:04:59,638 - INFO - Loading PDF documents from directory: app/DATA/
+2025-07-17 05:04:59,639 - INFO - Found 1 PDF files: The_GALE_ENCYCLOPEDIA_of_MEDICINE_SECOND.pdf
+2025-07-17 05:04:59,639 - ERROR - Error occurred while loading PDF documents. | Error: DirectoryLoader.__init__() got an unexpected keyword argument 'directory_path' | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\pdf_Loader.py | Line: 23
+2025-07-17 05:04:59,639 - ERROR - Error occurred while processing PDF. | Error: Error occurred while loading PDF documents. | Error: DirectoryLoader.__init__() got an unexpected keyword argument 'directory_path' | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\pdf_Loader.py | Line: 23 | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\data_loader.py | Line: 17
+2025-07-17 05:05:43,275 - INFO - Starting PDF processing and vector store creation from app/DATA/
+2025-07-17 05:05:43,275 - INFO - Loading PDF documents from directory: app/DATA/
+2025-07-17 05:05:43,275 - INFO - Found 1 PDF files: The_GALE_ENCYCLOPEDIA_of_MEDICINE_SECOND.pdf
+2025-07-17 05:10:54,490 - INFO - Loading vector store...
+2025-07-17 05:10:54,491 - INFO - Loading vector store from vectorstore/db_faiss...
+2025-07-17 05:10:54,491 - ERROR - Vector store path vectorstore/db_faiss does not exist
+2025-07-17 05:10:54,492 - ERROR - Error occurred while creating QA chain. | Error: Vector store is empty or not found. Please create a vector store first. | Error: None | File: Unknown File | Line: Unknown Line | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\retriver.py | Line: 30
+2025-07-17 05:10:54,492 - ERROR - Error in /api/chat: 500: QA chain could not be initialized.
+2025-07-17 05:12:14,509 - INFO - Loading vector store...
+2025-07-17 05:12:14,510 - INFO - Loading vector store from vectorstore/db_faiss...
+2025-07-17 05:12:14,510 - ERROR - Vector store path vectorstore/db_faiss does not exist
+2025-07-17 05:12:14,510 - ERROR - Error occurred while creating QA chain. | Error: Vector store is empty or not found. Please create a vector store first. | Error: None | File: Unknown File | Line: Unknown Line | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\retriver.py | Line: 30
+2025-07-17 05:12:14,510 - ERROR - Error in /api/chat: 500: QA chain could not be initialized.
+2025-07-17 11:49:33,549 - INFO - Starting PDF processing and vector store creation from app/DATA/
+2025-07-17 11:49:33,550 - INFO - Loading PDF documents from directory: app/DATA/
+2025-07-17 11:49:33,550 - INFO - Found 1 PDF files: The_GALE_ENCYCLOPEDIA_of_MEDICINE_SECOND.pdf
+2025-07-17 11:49:48,032 - INFO - Loaded 759 PDF documents.
+2025-07-17 11:49:48,032 - INFO - Successfully loaded 759 documents, creating text chunks...
+2025-07-17 11:49:48,032 - INFO - Splitting 759 documents into text chunks.
+2025-07-17 11:49:48,207 - INFO - Generated 7080 text chunks.
+2025-07-17 11:49:48,207 - INFO - Successfully created 7080 text chunks, creating vector store...
+2025-07-17 11:49:48,207 - INFO - Creating vector store...
+2025-07-17 11:49:48,207 - INFO - Loading HuggingFace embeddings...
+2025-07-17 11:49:48,226 - ERROR - Error loading embeddings model | Error: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`. | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\embeddings.py | Line: 16
+2025-07-17 11:49:48,226 - ERROR - Error creating vector store | Error: Error loading embeddings model | Error: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`. | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\embeddings.py | Line: 16 | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\vector_store.py | Line: 22
+2025-07-17 11:49:48,226 - ERROR - Error occurred while processing PDF. | Error: Error creating vector store | Error: Error loading embeddings model | Error: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`. | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\embeddings.py | Line: 16 | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\vector_store.py | Line: 22 | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\data_loader.py | Line: 31
+2025-07-17 11:53:22,133 - INFO - Loading vector store...
+2025-07-17 11:53:22,134 - INFO - Loading vector store from vectorstore/db_faiss
+2025-07-17 11:53:22,134 - WARNING - Vector store not found at vectorstore/db_faiss. Creating new one...
+2025-07-17 11:53:22,134 - ERROR - Error occurred while creating QA chain. | Error: Vector store is empty or not found. Please create a vector store first. | Error: None | File: Unknown File | Line: Unknown Line | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\retriver.py | Line: 30
+2025-07-17 11:53:22,135 - ERROR - Error in /api/chat: 500: QA chain could not be initialized.
+2025-07-17 11:54:21,314 - INFO - Received chat request with question: ndfjvsd
+2025-07-17 11:54:21,315 - INFO - Loading vector store...
+2025-07-17 11:54:21,315 - INFO - Loading vector store from vectorstore/db_faiss
+2025-07-17 11:54:21,315 - WARNING - Vector store not found at vectorstore/db_faiss. Creating new one...
+2025-07-17 11:54:21,315 - ERROR - Error occurred while creating QA chain. | Error: Vector store is empty or not found. Please create a vector store first. | Error: None | File: Unknown File | Line: Unknown Line | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\retriver.py | Line: 30
+2025-07-17 11:54:21,315 - ERROR - QA chain initialization failed
+2025-07-17 11:54:21,316 - ERROR - Error in /api/chat: 500: QA chain could not be initialized.
+Traceback (most recent call last):
+  File "C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\main.py", line 33, in chat_endpoint
+    raise HTTPException(status_code=500, detail="QA chain could not be initialized.")
+fastapi.exceptions.HTTPException: 500: QA chain could not be initialized.
+2025-07-17 12:52:43,031 - INFO - Received chat request with question: df bfd
+2025-07-17 12:52:43,031 - INFO - Loading vector store...
+2025-07-17 12:52:43,031 - INFO - Loading vector store from vectorstore/db_faiss
+2025-07-17 12:52:43,031 - WARNING - Vector store not found at vectorstore/db_faiss. Creating new one...
+2025-07-17 12:52:43,032 - ERROR - Error occurred while creating QA chain. | Error: Vector store is empty or not found. Please create a vector store first. | Error: None | File: Unknown File | Line: Unknown Line | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\retriver.py | Line: 30
+2025-07-17 12:52:43,032 - ERROR - QA chain initialization failed
+2025-07-17 12:52:43,032 - ERROR - Error in /api/chat: 500: QA chain could not be initialized.
+Traceback (most recent call last):
+  File "C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\main.py", line 33, in chat_endpoint
+    raise HTTPException(status_code=500, detail="QA chain could not be initialized.")
+fastapi.exceptions.HTTPException: 500: QA chain could not be initialized.
+2025-07-17 12:57:19,760 - INFO - Starting PDF processing and vector store creation from app/DATA/
+2025-07-17 12:57:19,760 - INFO - Loading PDF documents from directory: app/DATA/
+2025-07-17 12:57:19,760 - INFO - Found 1 PDF files: The_GALE_ENCYCLOPEDIA_of_MEDICINE_SECOND.pdf
+2025-07-17 12:57:34,678 - INFO - Loaded 759 PDF documents.
+2025-07-17 12:57:34,680 - INFO - Successfully loaded 759 documents, creating text chunks...
+2025-07-17 12:57:34,680 - INFO - Splitting 759 documents into text chunks.
+2025-07-17 12:57:34,847 - INFO - Generated 7080 text chunks.
+2025-07-17 12:57:34,848 - INFO - Successfully created 7080 text chunks, creating vector store...
+2025-07-17 12:57:34,848 - INFO - Creating vector store...
+2025-07-17 12:57:34,848 - INFO - Loading HuggingFace embeddings...
+2025-07-17 12:57:34,872 - ERROR - Error loading embeddings model | Error: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`. | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\embeddings.py | Line: 16
+2025-07-17 12:57:34,872 - ERROR - Error creating vector store | Error: Error loading embeddings model | Error: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`. | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\embeddings.py | Line: 16 | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\vector_store.py | Line: 22
+2025-07-17 12:57:34,872 - ERROR - Error occurred while processing PDF. | Error: Error creating vector store | Error: Error loading embeddings model | Error: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`. | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\embeddings.py | Line: 16 | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\vector_store.py | Line: 22 | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\data_loader.py | Line: 31
+2025-07-17 13:14:06,044 - INFO - Starting PDF processing and vector store creation from app/DATA/
+2025-07-17 13:14:06,044 - INFO - Loading PDF documents from directory: app/DATA/
+2025-07-17 13:14:06,045 - INFO - Found 1 PDF files: The_GALE_ENCYCLOPEDIA_of_MEDICINE_SECOND.pdf
+2025-07-17 13:14:20,918 - INFO - Loaded 759 PDF documents.
+2025-07-17 13:14:20,918 - INFO - Successfully loaded 759 documents, creating text chunks...
+2025-07-17 13:14:20,918 - INFO - Splitting 759 documents into text chunks.
+2025-07-17 13:14:21,124 - INFO - Generated 7080 text chunks.
+2025-07-17 13:14:21,124 - INFO - Successfully created 7080 text chunks, creating vector store...
+2025-07-17 13:14:21,124 - INFO - Creating vector store...
+2025-07-17 13:14:21,125 - INFO - Loading HuggingFace embeddings...
+2025-07-17 13:14:21,137 - ERROR - Error loading embeddings model | Error: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`. | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\embeddings.py | Line: 16
+2025-07-17 13:14:21,137 - ERROR - Error creating vector store | Error: Error loading embeddings model | Error: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`. | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\embeddings.py | Line: 16 | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\vector_store.py | Line: 22
+2025-07-17 13:14:21,137 - ERROR - Error occurred while processing PDF. | Error: Error creating vector store | Error: Error loading embeddings model | Error: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`. | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\embeddings.py | Line: 16 | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\vector_store.py | Line: 22 | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\data_loader.py | Line: 31
+2025-07-17 13:21:06,810 - INFO - Starting PDF processing and vector store creation from app/DATA/
+2025-07-17 13:21:06,811 - INFO - Loading PDF documents from directory: app/DATA/
+2025-07-17 13:21:06,811 - INFO - Found 1 PDF files: The_GALE_ENCYCLOPEDIA_of_MEDICINE_SECOND.pdf
+2025-07-17 13:21:20,676 - INFO - Loaded 759 PDF documents.
+2025-07-17 13:21:20,676 - INFO - Successfully loaded 759 documents, creating text chunks...
+2025-07-17 13:21:20,677 - INFO - Splitting 759 documents into text chunks.
+2025-07-17 13:21:20,882 - INFO - Generated 7080 text chunks.
+2025-07-17 13:21:20,882 - INFO - Successfully created 7080 text chunks, creating vector store...
+2025-07-17 13:21:20,882 - INFO - Creating vector store...
+2025-07-17 13:21:20,882 - INFO - Loading HuggingFace embeddings...
+2025-07-17 13:22:17,863 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-17 13:22:30,981 - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-07-17 13:24:33,145 - INFO - HuggingFace embeddings loaded successfully
+2025-07-17 13:26:47,696 - INFO - Loading faiss with AVX2 support.
+2025-07-17 13:26:48,327 - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-17 13:26:48,556 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-17 13:26:48,885 - INFO - Vector store created and saved to vectorstore/db_faiss
+2025-07-17 13:26:48,886 - INFO - Process completed successfully
+2025-07-17 13:31:14,491 - INFO - Received chat request with question: ktrfnk\
+2025-07-17 13:31:14,492 - INFO - Loading vector store...
+2025-07-17 13:31:14,492 - INFO - Loading vector store from vectorstore/db_faiss
+2025-07-17 13:31:14,492 - INFO - Loading HuggingFace embeddings...
+2025-07-17 13:32:19,310 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-17 13:32:26,736 - INFO - HuggingFace embeddings loaded successfully
+2025-07-17 13:32:26,736 - ERROR - Error loading vector store | Error: The de-serialization relies loading a pickle file. Pickle files can be modified to deliver a malicious payload that results in execution of arbitrary code on your machine.You will need to set `allow_dangerous_deserialization` to `True` to enable deserialization. If you do this, make sure that you trust the source of the data. For example, if you are loading a file that you created, and know that no one else has modified the file, then this is safe to do. Do not set this to `True` if you are loading a file from an untrusted source (e.g., some random site on the internet.). | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\vector_store.py | Line: 60
+2025-07-17 13:32:26,736 - ERROR - Error occurred while creating QA chain. | Error: Error loading vector store | Error: The de-serialization relies loading a pickle file. Pickle files can be modified to deliver a malicious payload that results in execution of arbitrary code on your machine.You will need to set `allow_dangerous_deserialization` to `True` to enable deserialization. If you do this, make sure that you trust the source of the data. For example, if you are loading a file that you created, and know that no one else has modified the file, then this is safe to do. Do not set this to `True` if you are loading a file from an untrusted source (e.g., some random site on the internet.). | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\vector_store.py | Line: 60 | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\retriver.py | Line: 28
+2025-07-17 13:32:26,736 - ERROR - QA chain initialization failed
+2025-07-17 13:32:26,736 - ERROR - Error in /api/chat: 500: QA chain could not be initialized.
+Traceback (most recent call last):
+  File "C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\main.py", line 33, in chat_endpoint
+    raise HTTPException(status_code=500, detail="QA chain could not be initialized.")
+fastapi.exceptions.HTTPException: 500: QA chain could not be initialized.
+2025-07-17 13:32:26,740 - INFO - Received chat request with question: what is cancer ?
+2025-07-17 13:32:26,740 - INFO - Loading vector store...
+2025-07-17 13:32:26,740 - INFO - Loading vector store from vectorstore/db_faiss
+2025-07-17 13:32:26,740 - INFO - Loading HuggingFace embeddings...
+2025-07-17 13:32:26,741 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-17 13:32:32,573 - INFO - HuggingFace embeddings loaded successfully
+2025-07-17 13:32:32,573 - ERROR - Error loading vector store | Error: The de-serialization relies loading a pickle file. Pickle files can be modified to deliver a malicious payload that results in execution of arbitrary code on your machine.You will need to set `allow_dangerous_deserialization` to `True` to enable deserialization. If you do this, make sure that you trust the source of the data. For example, if you are loading a file that you created, and know that no one else has modified the file, then this is safe to do. Do not set this to `True` if you are loading a file from an untrusted source (e.g., some random site on the internet.). | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\vector_store.py | Line: 60
+2025-07-17 13:32:32,573 - ERROR - Error occurred while creating QA chain. | Error: Error loading vector store | Error: The de-serialization relies loading a pickle file. Pickle files can be modified to deliver a malicious payload that results in execution of arbitrary code on your machine.You will need to set `allow_dangerous_deserialization` to `True` to enable deserialization. If you do this, make sure that you trust the source of the data. For example, if you are loading a file that you created, and know that no one else has modified the file, then this is safe to do. Do not set this to `True` if you are loading a file from an untrusted source (e.g., some random site on the internet.). | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\vector_store.py | Line: 60 | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\retriver.py | Line: 28
+2025-07-17 13:32:32,573 - ERROR - QA chain initialization failed
+2025-07-17 13:32:32,573 - ERROR - Error in /api/chat: 500: QA chain could not be initialized.
+Traceback (most recent call last):
+  File "C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\main.py", line 33, in chat_endpoint
+    raise HTTPException(status_code=500, detail="QA chain could not be initialized.")
+fastapi.exceptions.HTTPException: 500: QA chain could not be initialized.
+2025-07-17 13:37:14,945 - INFO - Received chat request with question: What are the symptoms of diabetes?
+2025-07-17 13:37:14,945 - INFO - Loading vector store...
+2025-07-17 13:37:14,945 - INFO - Loading vector store from vectorstore/db_faiss
+2025-07-17 13:37:14,946 - INFO - Loading HuggingFace embeddings...
+2025-07-17 13:37:14,947 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-17 13:37:24,514 - INFO - HuggingFace embeddings loaded successfully
+2025-07-17 13:37:24,514 - ERROR - Error loading vector store | Error: The de-serialization relies loading a pickle file. Pickle files can be modified to deliver a malicious payload that results in execution of arbitrary code on your machine.You will need to set `allow_dangerous_deserialization` to `True` to enable deserialization. If you do this, make sure that you trust the source of the data. For example, if you are loading a file that you created, and know that no one else has modified the file, then this is safe to do. Do not set this to `True` if you are loading a file from an untrusted source (e.g., some random site on the internet.). | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\vector_store.py | Line: 60
+2025-07-17 13:37:24,514 - ERROR - Error occurred while creating QA chain. | Error: Error loading vector store | Error: The de-serialization relies loading a pickle file. Pickle files can be modified to deliver a malicious payload that results in execution of arbitrary code on your machine.You will need to set `allow_dangerous_deserialization` to `True` to enable deserialization. If you do this, make sure that you trust the source of the data. For example, if you are loading a file that you created, and know that no one else has modified the file, then this is safe to do. Do not set this to `True` if you are loading a file from an untrusted source (e.g., some random site on the internet.). | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\vector_store.py | Line: 60 | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\retriver.py | Line: 28
+2025-07-17 13:37:24,514 - ERROR - QA chain initialization failed
+2025-07-17 13:37:24,515 - ERROR - Error in /api/chat: 500: QA chain could not be initialized.
+Traceback (most recent call last):
+  File "C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\main.py", line 33, in chat_endpoint
+    raise HTTPException(status_code=500, detail="QA chain could not be initialized.")
+fastapi.exceptions.HTTPException: 500: QA chain could not be initialized.
+2025-07-17 13:39:35,370 - INFO - Received chat request with question: What are the symptoms of diabetes?
+2025-07-17 13:39:35,370 - INFO - Loading vector store...
+2025-07-17 13:39:35,370 - INFO - Loading vector store from vectorstore/db_faiss
+2025-07-17 13:39:35,370 - INFO - Loading HuggingFace embeddings...
+2025-07-17 13:39:35,372 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-17 13:39:44,575 - INFO - HuggingFace embeddings loaded successfully
+2025-07-17 13:39:44,575 - ERROR - Error loading vector store | Error: The de-serialization relies loading a pickle file. Pickle files can be modified to deliver a malicious payload that results in execution of arbitrary code on your machine.You will need to set `allow_dangerous_deserialization` to `True` to enable deserialization. If you do this, make sure that you trust the source of the data. For example, if you are loading a file that you created, and know that no one else has modified the file, then this is safe to do. Do not set this to `True` if you are loading a file from an untrusted source (e.g., some random site on the internet.). | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\vector_store.py | Line: 60
+2025-07-17 13:39:44,575 - ERROR - Error occurred while creating QA chain. | Error: Error loading vector store | Error: The de-serialization relies loading a pickle file. Pickle files can be modified to deliver a malicious payload that results in execution of arbitrary code on your machine.You will need to set `allow_dangerous_deserialization` to `True` to enable deserialization. If you do this, make sure that you trust the source of the data. For example, if you are loading a file that you created, and know that no one else has modified the file, then this is safe to do. Do not set this to `True` if you are loading a file from an untrusted source (e.g., some random site on the internet.). | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\vector_store.py | Line: 60 | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\retriver.py | Line: 28
+2025-07-17 13:39:44,575 - ERROR - QA chain initialization failed
+2025-07-17 13:39:44,575 - ERROR - Error in /api/chat: 500: QA chain could not be initialized.
+Traceback (most recent call last):
+  File "C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\main.py", line 33, in chat_endpoint
+    logger.error("QA chain initialization failed")
+fastapi.exceptions.HTTPException: 500: QA chain could not be initialized.
+2025-07-17 13:40:10,547 - INFO - Received chat request with question: What are the symptoms of diabetes?
+2025-07-17 13:40:10,548 - INFO - Loading vector store...
+2025-07-17 13:40:10,548 - INFO - Loading vector store from vectorstore/db_faiss
+2025-07-17 13:40:10,548 - INFO - Loading HuggingFace embeddings...
+2025-07-17 13:40:10,550 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-17 13:40:18,710 - INFO - HuggingFace embeddings loaded successfully
+2025-07-17 13:40:18,711 - ERROR - Error loading vector store | Error: The de-serialization relies loading a pickle file. Pickle files can be modified to deliver a malicious payload that results in execution of arbitrary code on your machine.You will need to set `allow_dangerous_deserialization` to `True` to enable deserialization. If you do this, make sure that you trust the source of the data. For example, if you are loading a file that you created, and know that no one else has modified the file, then this is safe to do. Do not set this to `True` if you are loading a file from an untrusted source (e.g., some random site on the internet.). | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\vector_store.py | Line: 60
+2025-07-17 13:40:18,711 - ERROR - Error occurred while creating QA chain. | Error: Error loading vector store | Error: The de-serialization relies loading a pickle file. Pickle files can be modified to deliver a malicious payload that results in execution of arbitrary code on your machine.You will need to set `allow_dangerous_deserialization` to `True` to enable deserialization. If you do this, make sure that you trust the source of the data. For example, if you are loading a file that you created, and know that no one else has modified the file, then this is safe to do. Do not set this to `True` if you are loading a file from an untrusted source (e.g., some random site on the internet.). | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\vector_store.py | Line: 60 | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\retriver.py | Line: 28
+2025-07-17 13:40:18,711 - ERROR - QA chain initialization failed
+2025-07-17 13:40:18,711 - ERROR - Error in /api/chat: 500: QA chain could not be initialized.
+Traceback (most recent call last):
+  File "C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\main.py", line 33, in chat_endpoint
+    logger.error("QA chain initialization failed")
+fastapi.exceptions.HTTPException: 500: QA chain could not be initialized.
+2025-07-17 14:40:41,180 - INFO - Received chat request with question: What are the symptoms of diabetes?
+2025-07-17 14:40:41,181 - INFO - Loading vector store...
+2025-07-17 14:40:41,182 - INFO - Loading vector store from vectorstore/db_faiss
+2025-07-17 14:40:41,182 - INFO - Loading HuggingFace embeddings...
+2025-07-17 14:40:41,190 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-17 14:40:58,946 - INFO - HuggingFace embeddings loaded successfully
+2025-07-17 14:40:58,947 - ERROR - Error loading vector store | Error: The de-serialization relies loading a pickle file. Pickle files can be modified to deliver a malicious payload that results in execution of arbitrary code on your machine.You will need to set `allow_dangerous_deserialization` to `True` to enable deserialization. If you do this, make sure that you trust the source of the data. For example, if you are loading a file that you created, and know that no one else has modified the file, then this is safe to do. Do not set this to `True` if you are loading a file from an untrusted source (e.g., some random site on the internet.). | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\vector_store.py | Line: 60
+2025-07-17 14:40:58,948 - ERROR - Error occurred while creating QA chain. | Error: Error loading vector store | Error: The de-serialization relies loading a pickle file. Pickle files can be modified to deliver a malicious payload that results in execution of arbitrary code on your machine.You will need to set `allow_dangerous_deserialization` to `True` to enable deserialization. If you do this, make sure that you trust the source of the data. For example, if you are loading a file that you created, and know that no one else has modified the file, then this is safe to do. Do not set this to `True` if you are loading a file from an untrusted source (e.g., some random site on the internet.). | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\vector_store.py | Line: 60 | File: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\components\retriver.py | Line: 28
+2025-07-17 14:40:58,948 - ERROR - QA chain initialization failed
+2025-07-17 14:40:58,949 - ERROR - Error in /api/chat: 500: QA chain could not be initialized.
+Traceback (most recent call last):
+  File "C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\main.py", line 33, in chat_endpoint
+    logger.error("QA chain initialization failed")
+fastapi.exceptions.HTTPException: 500: QA chain could not be initialized.
+2025-07-17 15:16:15,929 - INFO - Starting PDF processing and vector store creation from app/DATA/
+2025-07-17 15:16:15,929 - INFO - Loading PDF documents from directory: app/DATA/
+2025-07-17 15:16:15,929 - INFO - Found 1 PDF files: The_GALE_ENCYCLOPEDIA_of_MEDICINE_SECOND.pdf
+2025-07-17 15:16:31,446 - INFO - Loaded 759 PDF documents.
+2025-07-17 15:16:31,447 - INFO - Successfully loaded 759 documents, creating text chunks...
+2025-07-17 15:16:31,447 - INFO - Splitting 759 documents into text chunks.
+2025-07-17 15:16:31,629 - INFO - Generated 7080 text chunks.
+2025-07-17 15:16:31,629 - INFO - Successfully created 7080 text chunks, creating vector store...
+2025-07-17 15:16:31,629 - INFO - Creating FAISS vector store...
+2025-07-17 15:16:31,629 - INFO - INITIALIZING OUR HUGGINGFACE EMBEDDINGS MODEL
+2025-07-17 15:16:42,948 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-17 15:16:54,235 - INFO - HuggingFace embeddings model initialized successfully.
+2025-07-17 15:20:56,351 - INFO - Starting PDF processing and vector store creation from app/DATA/
+2025-07-17 15:20:56,351 - INFO - Loading PDF documents from directory: app/DATA/
+2025-07-17 15:20:56,351 - INFO - Found 1 PDF files: The_GALE_ENCYCLOPEDIA_of_MEDICINE_SECOND.pdf
+2025-07-17 15:21:15,943 - INFO - Loaded 759 PDF documents.
+2025-07-17 15:21:15,943 - INFO - Successfully loaded 759 documents, creating text chunks...
+2025-07-17 15:21:15,943 - INFO - Splitting 759 documents into text chunks.
+2025-07-17 15:21:16,171 - INFO - Generated 7080 text chunks.
+2025-07-17 15:21:16,172 - INFO - Successfully created 7080 text chunks, creating vector store...
+2025-07-17 15:21:16,172 - INFO - Creating FAISS vector store...
+2025-07-17 15:21:16,172 - INFO - INITIALIZING OUR HUGGINGFACE EMBEDDINGS MODEL
+2025-07-17 15:21:25,776 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-17 15:21:43,138 - INFO - HuggingFace embeddings model initialized successfully.
+2025-07-17 15:24:32,977 - INFO - Starting PDF processing and vector store creation from app/DATA/
+2025-07-17 15:24:32,977 - INFO - Loading PDF documents from directory: app/DATA/
+2025-07-17 15:24:32,977 - INFO - Found 1 PDF files: The_GALE_ENCYCLOPEDIA_of_MEDICINE_SECOND.pdf
+2025-07-17 15:31:54,807 - INFO - Starting PDF processing and vector store creation from app/DATA/
+2025-07-17 15:31:54,807 - INFO - Loading PDF documents from directory: app/DATA/
+2025-07-17 15:31:54,807 - INFO - Found 1 PDF files: The_GALE_ENCYCLOPEDIA_of_MEDICINE_SECOND.pdf
+2025-07-17 15:32:08,089 - INFO - Loaded 759 PDF documents.
+2025-07-17 15:32:08,089 - INFO - Successfully loaded 759 documents, creating text chunks...
+2025-07-17 15:32:08,089 - INFO - Splitting 759 documents into text chunks.
+2025-07-17 15:32:08,276 - INFO - Generated 7080 text chunks.
+2025-07-17 15:32:08,276 - INFO - Successfully created 7080 text chunks, creating vector store...
+2025-07-17 15:32:08,276 - INFO - Creating FAISS vector store...
+2025-07-17 15:32:08,276 - INFO - INITIALIZING OUR HUGGINGFACE EMBEDDINGS MODEL
+2025-07-17 15:32:16,992 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-17 15:32:27,699 - INFO - HuggingFace embeddings model initialized successfully.
+2025-07-17 15:37:09,214 - INFO - Loading faiss with AVX2 support.
+2025-07-17 15:37:10,688 - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-17 15:37:10,704 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-17 15:37:11,139 - INFO - Vector store created and saved to vectorstore/db_faiss
+2025-07-17 15:37:11,139 - INFO - Process completed successfully
+2025-07-17 15:37:32,895 - INFO - Starting PDF processing and vector store creation from app/DATA/
+2025-07-17 15:37:32,895 - INFO - Loading PDF documents from directory: app/DATA/
+2025-07-17 15:37:32,895 - INFO - Found 1 PDF files: The_GALE_ENCYCLOPEDIA_of_MEDICINE_SECOND.pdf
+2025-07-17 15:38:04,677 - INFO - Received chat request with question: What are the symptoms of diabetes?
+2025-07-17 15:38:04,678 - INFO - Loading vector store...
+2025-07-17 15:38:04,678 - INFO - Loading vector store from vectorstore/db_faiss...
+2025-07-17 15:38:04,678 - INFO - Current working directory: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot
+2025-07-17 15:38:04,678 - INFO - DB_FAISS_PATH exists: True
+2025-07-17 15:38:04,678 - INFO - DB_FAISS_PATH is dir: True
+2025-07-17 15:38:04,679 - INFO - DB_FAISS_PATH contents: ['index.faiss', 'index.pkl']
+2025-07-17 15:38:04,680 - INFO - INITIALIZING OUR HUGGINGFACE EMBEDDINGS MODEL
+2025-07-17 15:38:18,497 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-17 15:38:31,540 - INFO - HuggingFace embeddings model initialized successfully.
+2025-07-17 15:38:31,545 - INFO - Loading faiss with AVX2 support.
+2025-07-17 15:38:31,570 - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-17 15:38:31,578 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-17 15:38:31,656 - INFO - Vector store loaded successfully
+2025-07-17 15:38:31,656 - INFO - Loading LLM...
+2025-07-17 15:38:31,656 - INFO - Loading language model: llama-3.1-8b-instant
+2025-07-17 15:38:39,598 - INFO - Successfully loaded language model: llama-3.1-8b-instant
+2025-07-17 15:38:39,598 - INFO - Setting up custom prompt template...
+2025-07-17 15:38:39,598 - INFO - Creating RetrievalQA chain...
+2025-07-17 15:38:39,599 - INFO - RetrievalQA chain created successfully.
+2025-07-17 15:38:39,599 - INFO - QA chain initialized successfully, invoking with question
+2025-07-17 15:38:40,047 - ERROR - Error in /api/chat: Missing some input keys: {'query'}
+Traceback (most recent call last):
+  File "C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\app\main.py", line 37, in chat_endpoint
+    result = qa_chain.invoke({"question": request.question})
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\my_env\Lib\site-packages\langchain\chains\base.py", line 167, in invoke
+    raise e
+  File "C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\my_env\Lib\site-packages\langchain\chains\base.py", line 155, in invoke
+    self._validate_inputs(inputs)
+  File "C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot\my_env\Lib\site-packages\langchain\chains\base.py", line 287, in _validate_inputs
+    raise ValueError(f"Missing some input keys: {missing_keys}")
+ValueError: Missing some input keys: {'query'}
+2025-07-17 15:42:41,579 - INFO - Received chat request with question: What are the symptoms of diabetes?
+2025-07-17 15:42:41,579 - INFO - Loading vector store...
+2025-07-17 15:42:41,580 - INFO - Loading vector store from vectorstore/db_faiss...
+2025-07-17 15:42:41,580 - INFO - Current working directory: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot
+2025-07-17 15:42:41,580 - INFO - DB_FAISS_PATH exists: True
+2025-07-17 15:42:41,580 - INFO - DB_FAISS_PATH is dir: True
+2025-07-17 15:42:41,581 - INFO - DB_FAISS_PATH contents: ['index.faiss', 'index.pkl']
+2025-07-17 15:42:41,581 - INFO - INITIALIZING OUR HUGGINGFACE EMBEDDINGS MODEL
+2025-07-17 15:42:56,741 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-17 15:43:06,022 - INFO - HuggingFace embeddings model initialized successfully.
+2025-07-17 15:43:06,027 - INFO - Loading faiss with AVX2 support.
+2025-07-17 15:43:06,056 - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-17 15:43:06,066 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-17 15:43:06,130 - INFO - Vector store loaded successfully
+2025-07-17 15:43:06,131 - INFO - Loading LLM...
+2025-07-17 15:43:06,131 - INFO - Loading language model: llama-3.1-8b-instant
+2025-07-17 15:43:07,699 - INFO - Successfully loaded language model: llama-3.1-8b-instant
+2025-07-17 15:43:07,699 - INFO - Setting up custom prompt template...
+2025-07-17 15:43:07,700 - INFO - Creating RetrievalQA chain...
+2025-07-17 15:43:07,701 - INFO - RetrievalQA chain created successfully.
+2025-07-17 15:43:07,701 - INFO - QA chain initialized successfully, invoking with question
+2025-07-17 15:43:10,226 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-17 15:43:10,292 - INFO - Generated answer: The classic symptoms of diabetes include feeling t...
+2025-07-17 15:44:39,567 - INFO - Received chat request with question: what is cancer ?
+2025-07-17 15:44:39,567 - INFO - Loading vector store...
+2025-07-17 15:44:39,569 - INFO - Loading vector store from vectorstore/db_faiss...
+2025-07-17 15:44:39,569 - INFO - Current working directory: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot
+2025-07-17 15:44:39,569 - INFO - DB_FAISS_PATH exists: True
+2025-07-17 15:44:39,569 - INFO - DB_FAISS_PATH is dir: True
+2025-07-17 15:44:39,570 - INFO - DB_FAISS_PATH contents: ['index.faiss', 'index.pkl']
+2025-07-17 15:44:39,570 - INFO - INITIALIZING OUR HUGGINGFACE EMBEDDINGS MODEL
+2025-07-17 15:44:39,573 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-17 15:44:45,708 - INFO - HuggingFace embeddings model initialized successfully.
+2025-07-17 15:44:45,969 - INFO - Vector store loaded successfully
+2025-07-17 15:44:45,970 - INFO - Loading LLM...
+2025-07-17 15:44:45,970 - INFO - Loading language model: llama-3.1-8b-instant
+2025-07-17 15:44:47,256 - INFO - Successfully loaded language model: llama-3.1-8b-instant
+2025-07-17 15:44:47,256 - INFO - Setting up custom prompt template...
+2025-07-17 15:44:47,256 - INFO - Creating RetrievalQA chain...
+2025-07-17 15:44:47,257 - INFO - RetrievalQA chain created successfully.
+2025-07-17 15:44:47,257 - INFO - QA chain initialized successfully, invoking with question
+2025-07-17 15:44:47,823 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-17 15:44:47,826 - INFO - Generated answer: Cancer is a disease of the genes, caused by change...
