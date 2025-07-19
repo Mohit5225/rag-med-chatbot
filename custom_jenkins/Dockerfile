@@ -3,7 +3,7 @@ FROM jenkins/jenkins:lts
 
 # Switch to root user to install dependencies
 USER root
-
+# Install prerequisites and Docker
 # Install prerequisites and Docker
 RUN apt-get update -y && \
     apt-get install -y apt-transport-https ca-certificates curl gnupg software-properties-common && \
