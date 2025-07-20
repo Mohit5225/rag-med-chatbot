@@ -5,6 +5,7 @@ from app.components.vector_store import load_vector_store
 from app.config.config import HUGGINGFACE_REPO_ID, HF_TOKEN
 from app.common.logger import get_logger
 from app.common.custom_exceptions import CustomException
+from fastapi.responses import StreamingResponse
 
 logger = get_logger(__name__)
 
@@ -24,31 +25,51 @@ def set_custom_prompt():
 
 def create_qa_chain():
     try:
-        logger.info("Loading vector store...")
+        logger.info("=== QA CHAIN CREATION START ===")
+        
+        logger.info("Step 1: Loading vector store...")
         vector_store = load_vector_store()
         if not vector_store:
+            logger.error("CRITICAL: Vector store is empty or not found")
             raise CustomException("Vector store is empty or not found. Please create a vector store first.")
+        logger.info(f"Vector store loaded successfully. Type: {type(vector_store)}")
         
-        logger.info("Loading LLM...")
+        logger.info("Step 2: Loading LLM...")
         llm = load_llm(model_name="llama-3.1-8b-instant")
         if not llm:
+            logger.error("CRITICAL: LLM could not be loaded")
             raise CustomException("LLM could not be loaded. Please check your configuration.")
+        logger.info(f"LLM loaded successfully. Type: {type(llm)}")
         
-        logger.info("Setting up custom prompt template...")
+        logger.info("Step 3: Setting up custom prompt template...")
         prompt = set_custom_prompt()
+        logger.info(f"Prompt template created. Type: {type(prompt)}")
         
-        logger.info("Creating RetrievalQA chain...")
+        logger.info("Step 4: Creating retriever from vector store...")
+        try:
+            retriever = vector_store.as_retriever()
+            logger.info(f"Retriever created successfully. Type: {type(retriever)}")
+        except Exception as retriever_e:
+            logger.error(f"CRITICAL: Failed to create retriever: {str(retriever_e)}")
+            raise retriever_e
+        
+        logger.info("Step 5: Creating RetrievalQA chain...")
         qa_chain = RetrievalQA.from_chain_type(
             llm=llm,
             chain_type="stuff",
-            retriever=vector_store.as_retriever(),
+            retriever=retriever,
             return_source_documents=False,
             chain_type_kwargs={"prompt": prompt}
         )
         
-        logger.info("RetrievalQA chain created successfully.")
+        logger.info(f"RetrievalQA chain created successfully. Type: {type(qa_chain)}")
+        logger.info("=== QA CHAIN CREATION SUCCESS ===")
         return qa_chain
+        
     except Exception as e:
+        logger.error("=== QA CHAIN CREATION FAILED ===")
+        logger.error(f"Exception type: {type(e)}")
+        logger.error(f"Exception details: {repr(e)}")
         error_message = CustomException(message="Error occurred while creating QA chain.", error_detail=e)
         logger.error(str(error_message))
         return None  # Return None instead of raising None
