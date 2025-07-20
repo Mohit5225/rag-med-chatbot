@@ -44,3 +44,5 @@ if __name__=="__main__":
     if os.path.exists(DATA_PATH):
         print(f"Contents of DATA_PATH: {os.listdir(DATA_PATH)}")
     process_and_store_pdf()
+
+    

@@ -5,7 +5,7 @@ pipeline {
         AWS_REGION = 'ap-south-1'
         ECR_REPO = 'med-rag'
         IMAGE_TAG = 'latest'
-        SERVICE_NAME = 'llmops-medical-service'
+        SERVICE_NAME = 'llmops-medical-chat'
     }
 
     stages {
@@ -37,6 +37,7 @@ pipeline {
                         sh """
                         aws ecr get-login-password --region ${AWS_REGION} | docker login --username AWS --password-stdin ${ecrUrl}
                         docker build -t ${env.ECR_REPO}:${IMAGE_TAG} .
+                        docker run --rm ${env.ECR_REPO}:${IMAGE_TAG} ls -lh /app/vectorstore/db_faiss || echo "Directory not found"
                         trivy image --severity HIGH,CRITICAL --format json -o trivy-report.json ${env.ECR_REPO}:${IMAGE_TAG} || true
                         docker tag ${env.ECR_REPO}:${IMAGE_TAG} ${imageFullTag}
                         docker push ${imageFullTag}

@@ -1,0 +1,155 @@
+2025-07-20 05:07:22,043 - INFO - Starting PDF processing and vector store creation from app/DATA/
+2025-07-20 05:07:22,044 - INFO - Loading PDF documents from directory: app/DATA/
+2025-07-20 05:07:22,044 - INFO - Found 1 PDF files: The_GALE_ENCYCLOPEDIA_of_MEDICINE_SECOND.pdf
+2025-07-20 05:07:47,571 - INFO - Loaded 759 PDF documents.
+2025-07-20 05:07:47,571 - INFO - Successfully loaded 759 documents, creating text chunks...
+2025-07-20 05:07:47,571 - INFO - Splitting 759 documents into text chunks.
+2025-07-20 05:07:47,869 - INFO - Generated 7080 text chunks.
+2025-07-20 05:07:47,869 - INFO - Successfully created 7080 text chunks, creating vector store...
+2025-07-20 05:07:47,869 - INFO - Creating FAISS vector store...
+2025-07-20 05:07:47,869 - INFO - INITIALIZING OUR HUGGINGFACE EMBEDDINGS MODEL
+2025-07-20 05:08:02,422 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-20 05:08:09,169 - INFO - HuggingFace embeddings model initialized successfully.
+2025-07-20 05:08:52,325 - INFO - Starting PDF processing and vector store creation from app/DATA/
+2025-07-20 05:08:52,326 - INFO - Loading PDF documents from directory: app/DATA/
+2025-07-20 05:08:52,326 - INFO - Found 1 PDF files: The_GALE_ENCYCLOPEDIA_of_MEDICINE_SECOND.pdf
+2025-07-20 05:09:14,492 - INFO - Loaded 759 PDF documents.
+2025-07-20 05:09:14,493 - INFO - Successfully loaded 759 documents, creating text chunks...
+2025-07-20 05:09:14,494 - INFO - Splitting 759 documents into text chunks.
+2025-07-20 05:09:14,717 - INFO - Generated 7080 text chunks.
+2025-07-20 05:09:14,718 - INFO - Successfully created 7080 text chunks, creating vector store...
+2025-07-20 05:09:14,718 - INFO - Creating FAISS vector store...
+2025-07-20 05:09:14,718 - INFO - INITIALIZING OUR HUGGINGFACE EMBEDDINGS MODEL
+2025-07-20 05:09:25,325 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-20 05:09:31,369 - INFO - HuggingFace embeddings model initialized successfully.
+2025-07-20 05:11:49,644 - INFO - Starting PDF processing and vector store creation from app/DATA/
+2025-07-20 05:11:49,645 - INFO - Loading PDF documents from directory: app/DATA/
+2025-07-20 05:11:49,645 - INFO - Found 1 PDF files: The_GALE_ENCYCLOPEDIA_of_MEDICINE_SECOND.pdf
+2025-07-20 05:12:11,341 - INFO - Loaded 759 PDF documents.
+2025-07-20 05:12:11,342 - INFO - Successfully loaded 759 documents, creating text chunks...
+2025-07-20 05:12:11,342 - INFO - Splitting 759 documents into text chunks.
+2025-07-20 05:12:11,771 - INFO - Generated 7080 text chunks.
+2025-07-20 05:12:11,771 - INFO - Successfully created 7080 text chunks, creating vector store...
+2025-07-20 05:12:11,771 - INFO - Creating FAISS vector store...
+2025-07-20 05:12:11,772 - INFO - INITIALIZING OUR HUGGINGFACE EMBEDDINGS MODEL
+2025-07-20 05:12:25,496 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-20 05:12:32,692 - INFO - HuggingFace embeddings model initialized successfully.
+2025-07-20 05:31:50,104 - INFO - Loading faiss with AVX2 support.
+2025-07-20 05:32:01,345 - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-20 05:32:01,400 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-20 05:32:02,331 - INFO - Vector store created and saved to vectorstore/db_faiss
+2025-07-20 05:32:02,332 - INFO - Process completed successfully
+2025-07-20 05:32:37,171 - INFO - Starting PDF processing and vector store creation from app/DATA/
+2025-07-20 05:32:37,172 - INFO - Loading PDF documents from directory: app/DATA/
+2025-07-20 05:32:37,172 - INFO - Found 1 PDF files: The_GALE_ENCYCLOPEDIA_of_MEDICINE_SECOND.pdf
+2025-07-20 05:32:54,124 - INFO - Loaded 759 PDF documents.
+2025-07-20 05:32:54,124 - INFO - Successfully loaded 759 documents, creating text chunks...
+2025-07-20 05:32:54,124 - INFO - Splitting 759 documents into text chunks.
+2025-07-20 05:32:54,314 - INFO - Generated 7080 text chunks.
+2025-07-20 05:32:54,315 - INFO - Successfully created 7080 text chunks, creating vector store...
+2025-07-20 05:32:54,315 - INFO - Creating FAISS vector store...
+2025-07-20 05:32:54,315 - INFO - INITIALIZING OUR HUGGINGFACE EMBEDDINGS MODEL
+2025-07-20 05:33:13,253 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-20 05:33:20,694 - INFO - HuggingFace embeddings model initialized successfully.
+2025-07-20 05:36:04,495 - INFO - Loading faiss with AVX2 support.
+2025-07-20 05:36:04,547 - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-20 05:36:04,555 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-20 05:36:05,054 - INFO - Vector store created and saved to vectorstore/db_faiss
+2025-07-20 05:36:05,054 - INFO - Process completed successfully
+2025-07-20 05:38:09,053 - INFO - Starting PDF processing and vector store creation from app/DATA/
+2025-07-20 05:38:09,054 - INFO - Loading PDF documents from directory: app/DATA/
+2025-07-20 05:38:09,054 - INFO - Found 1 PDF files: The_GALE_ENCYCLOPEDIA_of_MEDICINE_SECOND.pdf
+2025-07-20 05:38:25,653 - INFO - Loaded 759 PDF documents.
+2025-07-20 05:38:25,654 - INFO - Successfully loaded 759 documents, creating text chunks...
+2025-07-20 05:38:25,654 - INFO - Splitting 759 documents into text chunks.
+2025-07-20 05:38:25,867 - INFO - Generated 7080 text chunks.
+2025-07-20 05:38:25,868 - INFO - Successfully created 7080 text chunks, creating vector store...
+2025-07-20 05:38:25,868 - INFO - Creating FAISS vector store...
+2025-07-20 05:38:25,868 - INFO - INITIALIZING OUR HUGGINGFACE EMBEDDINGS MODEL
+2025-07-20 05:38:35,670 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-20 05:38:43,336 - INFO - HuggingFace embeddings model initialized successfully.
+2025-07-20 16:37:42,049 - INFO - Starting PDF processing and vector store creation from app/DATA/
+2025-07-20 16:37:42,049 - INFO - Loading PDF documents from directory: app/DATA/
+2025-07-20 16:37:42,050 - INFO - Found 1 PDF files: The_GALE_ENCYCLOPEDIA_of_MEDICINE_SECOND.pdf
+2025-07-20 16:37:57,468 - INFO - Loaded 759 PDF documents.
+2025-07-20 16:37:57,469 - INFO - Successfully loaded 759 documents, creating text chunks...
+2025-07-20 16:37:57,469 - INFO - Splitting 759 documents into text chunks.
+2025-07-20 16:37:57,670 - INFO - Generated 7080 text chunks.
+2025-07-20 16:37:57,670 - INFO - Successfully created 7080 text chunks, creating vector store...
+2025-07-20 16:37:57,670 - INFO - Creating FAISS vector store...
+2025-07-20 16:37:57,670 - INFO - INITIALIZING OUR HUGGINGFACE EMBEDDINGS MODEL
+2025-07-20 16:39:25,596 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-20 16:39:35,174 - INFO - HuggingFace embeddings model initialized successfully.
+2025-07-20 16:41:55,245 - INFO - Loading faiss with AVX2 support.
+2025-07-20 16:41:55,794 - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-20 16:41:55,805 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-20 16:41:56,274 - INFO - Vector store created and saved to vectorstore/db_faiss
+2025-07-20 16:41:56,274 - INFO - Process completed successfully
+2025-07-20 16:49:08,807 - INFO - Received chat request with question: What are the symptoms of diabetes?
+2025-07-20 16:49:08,807 - INFO - Loading vector store from vectorstore/db_faiss...
+2025-07-20 16:49:08,807 - INFO - Current working directory: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot
+2025-07-20 16:49:08,807 - INFO - DB_FAISS_PATH exists: True
+2025-07-20 16:49:08,808 - INFO - DB_FAISS_PATH is dir: True
+2025-07-20 16:49:08,808 - INFO - DB_FAISS_PATH contents: ['index.faiss', 'index.pkl']
+2025-07-20 16:49:08,808 - INFO - INITIALIZING OUR HUGGINGFACE EMBEDDINGS MODEL
+2025-07-20 16:49:56,569 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-20 16:50:06,102 - INFO - HuggingFace embeddings model initialized successfully.
+2025-07-20 16:50:06,116 - INFO - Loading faiss with AVX2 support.
+2025-07-20 16:50:06,718 - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-20 16:50:06,743 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-20 16:50:06,890 - INFO - Vector store loaded successfully
+2025-07-20 16:50:07,111 - INFO - Loading language model: llama-3.1-8b-instant
+2025-07-20 16:50:08,183 - INFO - Successfully loaded language model: llama-3.1-8b-instant
+2025-07-20 16:50:08,782 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 16:51:04,806 - INFO - Received chat request with question: What are the symptoms of diabetes i want 20?
+2025-07-20 16:51:04,807 - INFO - Loading vector store from vectorstore/db_faiss...
+2025-07-20 16:51:04,807 - INFO - Current working directory: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot
+2025-07-20 16:51:04,807 - INFO - DB_FAISS_PATH exists: True
+2025-07-20 16:51:04,807 - INFO - DB_FAISS_PATH is dir: True
+2025-07-20 16:51:04,807 - INFO - DB_FAISS_PATH contents: ['index.faiss', 'index.pkl']
+2025-07-20 16:51:04,807 - INFO - INITIALIZING OUR HUGGINGFACE EMBEDDINGS MODEL
+2025-07-20 16:51:04,809 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-20 16:51:12,715 - INFO - HuggingFace embeddings model initialized successfully.
+2025-07-20 16:51:13,051 - INFO - Vector store loaded successfully
+2025-07-20 16:51:13,128 - INFO - Loading language model: llama-3.1-8b-instant
+2025-07-20 16:51:14,598 - INFO - Successfully loaded language model: llama-3.1-8b-instant
+2025-07-20 16:51:15,065 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 17:18:24,081 - INFO - Received chat request with question: What are the symptoms of diabetes i want 15?
+2025-07-20 17:18:24,081 - INFO - Loading vector store from vectorstore/db_faiss...
+2025-07-20 17:18:24,081 - INFO - Current working directory: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot
+2025-07-20 17:18:24,081 - INFO - DB_FAISS_PATH exists: True
+2025-07-20 17:18:24,081 - INFO - DB_FAISS_PATH is dir: True
+2025-07-20 17:18:24,082 - INFO - DB_FAISS_PATH contents: ['index.faiss', 'index.pkl']
+2025-07-20 17:18:24,082 - INFO - INITIALIZING OUR HUGGINGFACE EMBEDDINGS MODEL
+2025-07-20 17:18:24,084 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-20 17:18:30,771 - INFO - HuggingFace embeddings model initialized successfully.
+2025-07-20 17:18:30,888 - INFO - Vector store loaded successfully
+2025-07-20 17:18:30,961 - INFO - Loading language model: llama-3.1-8b-instant
+2025-07-20 17:18:32,262 - INFO - Successfully loaded language model: llama-3.1-8b-instant
+2025-07-20 17:18:32,785 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 17:23:58,235 - INFO - Received chat request with question: What are the symptoms of diabetes i want 15?
+2025-07-20 17:23:58,236 - INFO - Loading vector store from vectorstore/db_faiss...
+2025-07-20 17:23:58,236 - INFO - Current working directory: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot
+2025-07-20 17:23:58,236 - INFO - DB_FAISS_PATH exists: True
+2025-07-20 17:23:58,236 - INFO - DB_FAISS_PATH is dir: True
+2025-07-20 17:23:58,236 - INFO - DB_FAISS_PATH contents: ['index.faiss', 'index.pkl']
+2025-07-20 17:23:58,237 - INFO - INITIALIZING OUR HUGGINGFACE EMBEDDINGS MODEL
+2025-07-20 17:23:58,239 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-20 17:24:03,069 - INFO - HuggingFace embeddings model initialized successfully.
+2025-07-20 17:24:03,145 - INFO - Vector store loaded successfully
+2025-07-20 17:24:03,208 - INFO - Loading language model: llama-3.1-8b-instant
+2025-07-20 17:24:04,436 - INFO - Successfully loaded language model: llama-3.1-8b-instant
+2025-07-20 17:24:05,319 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 17:56:10,633 - INFO - Received chat request with question: how does it feels like in fever ?
+2025-07-20 17:56:10,633 - INFO - Loading vector store from vectorstore/db_faiss...
+2025-07-20 17:56:10,633 - INFO - Current working directory: C:\Users\mohit\Desktop\python\MEDICAL RAG CHATBOT\medical_rag_chatbot
+2025-07-20 17:56:10,634 - INFO - DB_FAISS_PATH exists: True
+2025-07-20 17:56:10,634 - INFO - DB_FAISS_PATH is dir: True
+2025-07-20 17:56:10,634 - INFO - DB_FAISS_PATH contents: ['index.faiss', 'index.pkl']
+2025-07-20 17:56:10,635 - INFO - INITIALIZING OUR HUGGINGFACE EMBEDDINGS MODEL
+2025-07-20 17:56:10,637 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-20 17:56:16,889 - INFO - HuggingFace embeddings model initialized successfully.
+2025-07-20 17:56:16,976 - INFO - Vector store loaded successfully
+2025-07-20 17:56:17,039 - INFO - Loading language model: llama-3.1-8b-instant
+2025-07-20 17:56:18,272 - INFO - Successfully loaded language model: llama-3.1-8b-instant
+2025-07-20 17:56:18,663 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
